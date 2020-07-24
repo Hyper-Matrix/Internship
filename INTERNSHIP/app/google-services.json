@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "5936435532",
+    "firebase_url": "https://internship-7ae27.firebaseio.com",
+    "project_id": "internship-7ae27",
+    "storage_bucket": "internship-7ae27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5936435532:android:9e0ff6d0704f743da3ffe9",
+        "android_client_info": {
+          "package_name": "com.example.internship"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5936435532-52jrc0ibgbjh7i0epgduo9n5rfe0ma4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO0vW_qLG367bPRcxuBHcogGcf7TBLMlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5936435532-52jrc0ibgbjh7i0epgduo9n5rfe0ma4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
