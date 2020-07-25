@@ -40,8 +40,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Myview
     @Override
     public void onBindViewHolder(@NonNull RecyclerAdapter.MyviewHolder holder, int position) {
         holder.tvSongName.setText(songsList.get(position).getTitle().toString());
-
-        Glide.with(context).load(Uri.parse(songsList.get(position).getImageUrl())).apply(RequestOptions.centerCropTransform()).into(holder.image);
+ Picasso.get().load(Uri.parse(songsList.get(position).getImageUrl())).into(holder.image);
+        //Glide.with(context).load(Uri.parse(songsList.get(position).getImageUrl())).apply(RequestOptions.centerCropTransform()).into(holder.image);
     }
 
     @Override
